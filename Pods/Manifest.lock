@@ -1,0 +1,25 @@
+PODS:
+  - ApigeeiOSSDK (2.0.17)
+  - ReactiveCocoa (2.4.7):
+    - ReactiveCocoa/UI (= 2.4.7)
+  - ReactiveCocoa/Core (2.4.7):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.7)
+  - ReactiveCocoa/UI (2.4.7):
+    - ReactiveCocoa/Core
+  - SocketRocket (0.3.1-beta2)
+  - ZettaKit (0.0.2):
+    - ReactiveCocoa (= 2.4.7)
+    - SocketRocket (= 0.3.1-beta2)
+
+DEPENDENCIES:
+  - ApigeeiOSSDK (~> 2.0.17)
+  - ZettaKit (~> 0.0.2)
+
+SPEC CHECKSUMS:
+  ApigeeiOSSDK: 30b5ea541a502a8049cfbb2ee7e3a36ab621e65e
+  ReactiveCocoa: eb38dee0a0e698f73a9b25e5c1faea2bb4c79240
+  SocketRocket: 7284ab9370a06c99aba92b2fe3a32aedd0f9a6fa
+  ZettaKit: 1f65c4ceed7c3420b1b635fdd68281a38e91c117
+
+COCOAPODS: 0.37.2
