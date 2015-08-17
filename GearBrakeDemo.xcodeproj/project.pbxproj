@@ -15,6 +15,7 @@
 		F518B8FF1B7BDE9100B6A14B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F518B8FE1B7BDE9100B6A14B /* Images.xcassets */; };
 		F518B9021B7BDE9100B6A14B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F518B9001B7BDE9100B6A14B /* LaunchScreen.xib */; };
 		F518B90E1B7BDE9100B6A14B /* GearBrakeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F518B90D1B7BDE9100B6A14B /* GearBrakeDemoTests.m */; };
+		F520C2011B822B6C009C3197 /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = F520C2001B822B6C009C3197 /* monkey.png */; };
 		F57DEA531B7CD9BC00C6BF29 /* VehicleOrTripSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57DEA521B7CD9BC00C6BF29 /* VehicleOrTripSelectionViewController.m */; };
 		F59C161C1B7CECBF00F75FE8 /* OrientationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59C161B1B7CECBF00F75FE8 /* OrientationViewController.m */; };
 		F59C161F1B7CECD000F75FE8 /* GPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59C161E1B7CECD000F75FE8 /* GPSViewController.m */; };
@@ -55,6 +56,8 @@
 		F518B9071B7BDE9100B6A14B /* GearBrakeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GearBrakeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F518B90C1B7BDE9100B6A14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F518B90D1B7BDE9100B6A14B /* GearBrakeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GearBrakeDemoTests.m; sourceTree = "<group>"; };
+		F520C2001B822B6C009C3197 /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
+		F520C2021B822B72009C3197 /* monkeytex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = monkeytex.h; sourceTree = "<group>"; };
 		F57DEA511B7CD9BC00C6BF29 /* VehicleOrTripSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleOrTripSelectionViewController.h; sourceTree = "<group>"; };
 		F57DEA521B7CD9BC00C6BF29 /* VehicleOrTripSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleOrTripSelectionViewController.m; sourceTree = "<group>"; };
 		F59C161A1B7CECBF00F75FE8 /* OrientationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrientationViewController.h; path = ../OrientationViewController.h; sourceTree = "<group>"; };
@@ -143,6 +146,8 @@
 		F518B8F01B7BDE9100B6A14B /* GearBrakeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F520C2001B822B6C009C3197 /* monkey.png */,
+				F520C2021B822B72009C3197 /* monkeytex.h */,
 				F59C161A1B7CECBF00F75FE8 /* OrientationViewController.h */,
 				F59C161B1B7CECBF00F75FE8 /* OrientationViewController.m */,
 				F518B8F51B7BDE9100B6A14B /* AppDelegate.h */,
@@ -275,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F520C2011B822B6C009C3197 /* monkey.png in Resources */,
 				F518B8FD1B7BDE9100B6A14B /* Main.storyboard in Resources */,
 				F518B9021B7BDE9100B6A14B /* LaunchScreen.xib in Resources */,
 				F518B8FF1B7BDE9100B6A14B /* Images.xcassets in Resources */,

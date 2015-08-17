@@ -26,6 +26,9 @@
             NSLog(@"%@", response.rawResponse);
             [client connectEntities:@"users" connectorID:@"me" connectionType:@"emergency" connecteeType:@"contacts" connecteeID:(NSString *)[ent get:@"uuid"] completionHandler:^(ApigeeClientResponse *response) {
                 NSLog(@"%@", response.rawResponse);
+                if (response.completedSuccessfully) {
+                    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+                }
             }];
         }
     }];
